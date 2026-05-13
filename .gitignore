@@ -1,0 +1,12 @@
+./0_data/*
+
+# Large model/output files
+*.nc
+
+
+# Output and restart files
+./control/Run_1CO2_CK/output/
+./control/Run_1CO2_CK/restart/
+./control/Run_1CO2_CK/CABLE-AUX/
+
+
