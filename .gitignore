@@ -1,12 +1,71 @@
-./0_data/*
+/0_data/*
+!/0_data/*.csv
+!/0_data/*.xlsx
 
 # Large model/output files
 *.nc
 
-
 # Output and restart files
-./control/Run_1CO2_CK/output/
-./control/Run_1CO2_CK/restart/
-./control/Run_1CO2_CK/CABLE-AUX/
+output/
+restart/
+CABLE-AUX/
+test_script/
+.svn/
+UM/
+.mpitmp/
+cable_mpimaster.F90.*.*.*.*
+cable-mpi.*.*.*
+cable_albedo.F90.*.*.*.*
+cable_soilsnow.F90.*.*.*.*
+cable_checks.F90.*.*.*.*
+cable_input.F90.*.*.*.*
+cable_iovars.F90.*.*.*.*
+cable_mpicommon.F90.*.*.*.*
+cable_mpimaster.F90.*.*.*.*
+cable_mpiworker.F90.*.*.*.*
+cable_output.F90.*.*.*.*
+cable_parameters.F90.*.*.*.*
+cable_read.F90.*.*.*.*
+cable_write.F90.*.*.*.*
+cable_initialise.F90.*.*.*.*
+cable_initialise.F90.*.*.*.*.*
+cable_driver.F90.*.*.*.*
+fort.57
+log_cable.txt
+*.log
+*_module.mod
+*_mod.mod
 
+/control/Run_1CO2_CK/output/
+/control/Run_1CO2_CK/restart/
+/control/Run_1CO2_CK/CABLE-AUX/
 
+/rand_acc/Run_2CO2_acc/output/
+/rand_acc/Run_2CO2_acc/restart/
+/rand_acc/Run_2CO2_acc/CABLE-AUX/
+/rand_acc/Run_2CO2_acc/test_script/*
+/rand_acc/Run_2CO2_acc/nml_C_N_cycle/*
+
+/rand_acc_cov/CABLE_trait/
+/rand_acc_cov/RL_Run_2CO2_acc_cov/
+/rand_acc_cov/Run_2CO2_acc/output/
+/rand_acc_cov/Run_2CO2_acc/restart/
+/rand_acc_cov/Run_2CO2_acc/CABLE-AUX/
+/rand_acc_cov/Run_2CO2_acc/nml_C_N_cycle/
+
+/rand_acc_cov_95CINa/
+
+/rand_acc_cov_aco2/RL_Run_aCO2_acc_cov/
+/rand_acc_cov_aco2/Run_aCO2_acc/output/
+/rand_acc_cov_aco2/Run_aCO2_acc/restart/
+/rand_acc_cov_aco2/Run_aCO2_acc/CABLE-AUX/
+/rand_acc_cov_aco2/Run_aCO2_acc/nml_C_N_cycle/
+
+/rand_acc_cov_aco2/Run_aCO2_acc2/
+
+/src/proc_RL/
+/src/test_initial_*
+/src/0_Data_Analysis/
+
+.vscode/
+.git/
